@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    height: auto;
+
+}
+
+.navbar-brand img{
+    height:80px;
+}
+.jumbotron-fluid{
+    background: url('images/backgr.jpg') center center no-repeat;
+    height:600px;
+    background-size: 100% 100%;
+}
+.row{
+    width:100%
+}
+
+.col-md-4{
+    position: relative;
+}
+.col-md-4 img{
+    width:auto;
+    height:200px;
+}
+
+.col-md-4::before{
+    content: " ";
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
